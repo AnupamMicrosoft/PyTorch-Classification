@@ -1,6 +1,6 @@
 # Problem Description
 You are asked to implement and solve linear Logistic Regression model and Linear SVM model
-(without regularization term) on MNIST dataset. In this task, you only need to perform binary classication
+(without regularization term) on MNIST dataset. In this task, you only need to perform binary classification
 on digit 0 and 1. You need to implement custom loss function, Logistics Loss and Hinge Loss in PyTorch.You
 are required to optimize the model by using SGD and Momentum methods. 
 # Data
@@ -9,16 +9,16 @@ download and load the data into batches. In this homework, we need two class, di
 classication.
 
 # Submit below results
- For each of the model, report the average loss for each Batch for each training epoch, where B
+For each of the model, report the average loss for each Batch for each training epoch, where B
 is the total number of batches, fb is the model (Logistic regression or Linear SVM) after updated by b-th
-batch and Db is the number of data points in b-th batch. An epoch is dened as one iteration of all
+batch and Db is the number of data points in b-th batch. An epoch is defined as one iteration of all
 dataset. Essentially, during a training epoch, you record down the average training loss of that batch after
 you update the model, and then report the average of all such batch-averaged losses after one iteration
-of whole dataset. You could plot the results as a gure our simply list down. Please at least report 10
+of whole dataset. You could plot the results as a figure our simply list down. Please at least report 10
 epochs.
- Report the final testing accuracy of trained model.
- Please compare results for 2 optimizer (SGD and SGD-Momentum)).
- Try different step sizes and discuss your ndings.
+ 1. Report the final testing accuracy of trained model.
+ 2. Please compare results for 2 optimizer (SGD and SGD-Momentum)).
+ 3. Try different step sizes and discuss your findings.
 # Overview of Code for PyTorch-Classification
 Logistics Regression and Support Vector Machine is implemented using PyTorch
 
