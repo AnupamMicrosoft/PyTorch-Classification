@@ -19,7 +19,7 @@ epochs.
  1. Report the final testing accuracy of trained model.
  2. Please compare results for 2 optimizer (SGD and SGD-Momentum)).
  3. Try different step sizes and discuss your findings.
-# Overview of Code for PyTorch-Classification
+# How to run
 Logistics Regression and Support Vector Machine is implemented using PyTorch
 
 1. Python code for Logistics Regression and SVM is provided
